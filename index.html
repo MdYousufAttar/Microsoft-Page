@@ -1,0 +1,361 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Font Awesome -->
+    <script src="https://kit.fontawesome.com/3715e2b643.js" crossorigin="anonymous"></script>
+    <!-- css stylesheet -->
+    <link rel="stylesheet" href="style.css">
+    <title>Microsoft – Cloud, Computers, Apps & Gaming</title>
+</head>
+
+<body>
+
+    <div class="navbar flex justify-between items-center w-4/5 md:mx-16">
+
+        <div class="left flex items-center md:order-2 ">
+            <div class="hamburger inline-block cursor-pointer p-4 md:hidden md:align">
+                <div class="line h-0.5 w-5 bg-black my-1"></div>
+                <div class="line h-0.5 w-5 bg-black my-1"></div>
+                <div class="line h-0.5 w-5 bg-black my-1"></div>
+            </div>
+            <div class="p-4"><img src="images/search.png" alt="###" class="w-7"></div>
+        </div>
+
+        <div class="middle flex items-center text-sm md:order-1 md:space-x-3">
+            <div class="flex">
+                <i class="fa-brands fa-microsoft fa-beat fa-2xl my-auto" style="color: #00c4f5;"></i>
+                <p class="p-2 text-2xl">Microsoft</p>
+            </div>
+            <div class="hidden md:block">Microsoft 365</div>
+            <div class="hidden md:block">Teams</div>
+            <div class="hidden md:block">Windows</div>
+            <div class="hidden md:block">Surafce</div>
+            <div class="hidden md:block">Xbox</div>
+            <div class="hidden md:block">Support</div>
+        </div>
+
+        <div class="right flex md:space-x-6 lg:space-x-12 items-center md:order-3 lg:relative lg:left-44 ">
+            <img src="images/cart.png" alt="" class="w-7">
+            <img src="images/user.png" alt="" class="w-7">
+        </div>
+
+    </div>
+
+    <div class="whole-cart">
+        <div class="cart flex flex-col px-1 lg:flex-row lg:space-x-14 lg:bg-whitesmoke">
+            <img class="laptop-img w-screen lg:order-2"
+                src="/images/Highlight-Surface-Laptop-Go-3-CONS-M001-1_VP2-859x540 (1).webp">
+            <div class="flex flex-col p-5 space-y-3 lg:order-1 lg:w-2/3 lg:justify-center lg:p-28 ">
+                <p class="bg-yellow-500 h-7 w-14 text-center">New</p>
+                <p class="Name font-bold text-2xl lg:text-4xl">Suaface Go 3 Laptop</p>
+                <p class="specification">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Repudiandae, dolore.
+                </p>
+                <button class="bg-blue-700 text-white p-2 w-28">Learn more</button>
+            </div>
+        </div>
+
+        <div class="cart flex flex-col px-1 lg:flex-row lg:space-x-14 hidden lg:bg-whitesmoke">
+            <div class="laptop-img lg:order-2 w-screen"><img
+                    src="/images/Highlight-Surface-Laptop-Go-3-CONS-M001-1_VP2-859x540 (1).webp"></div>
+            <div class="flex flex-col p-5 space-y-3 lg:order-1">
+                <p class="bg-yellow-500 h-7 w-14 text-center">New</p>
+                <p class="Name font-bold text-lg">Suafec Go 5 Laptop</p>
+                <p class="specification">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Repudiandae, dolore.
+                </p>
+                <button class="bg-blue-700 text-white p-2 w-28">Learn more</button>
+            </div>
+        </div>
+
+    </div>
+
+    <div class="flex justify-center items-center space-x-6 py-4">
+        <button type="button" class="prev" id="prev-courosel">prev</button>
+        <p class="w-2 h-2 border-2 border-black rounded-full"></p>
+        <p class="w-2 h-2 border-2 border-black rounded-full"></p>
+        <button type="button" class="next" id="next-courosel">next</button>
+    </div>
+
+    <div class="mx-5 md:mx-10 lg:mx-20">
+        <div
+            class="p-10 grid grid-cols-1 gap-4 gap-y-10 md:grid-cols-2 md:mx-[10%] lg:grid-cols-4 lg:mx-[0%] xl:mx-[10%]">
+            <div class="flex flex-col justify-center items-center">
+                <img src="images/windows.webp" alt="###">
+                <a
+                    href="https://www.microsoft.com/en-in/microsoft-365/buy/compare-all-microsoft-365-products?icid=MSCOM_QL_M365">Choose
+                    your Microsoft 365</a>
+            </div>
+            <div class="flex flex-col justify-center items-center">
+                <img src="images/suface-device.webp" alt="###">
+                <a href="https://www.microsoft.com/en-in/surface?icid=MSCOM_QL_Surface">Explore Surface devices</a>
+            </div>
+            <div class="flex flex-col justify-center items-center">
+                <img src="images/windows.webp" alt="###">
+                <a href="https://www.microsoft.com/en-in/store/b/xbox?icid=MSCOM_QL_Xbox">Buy Xbox games and
+                    consoles</a>
+            </div>
+            <div class="flex flex-col justify-center items-center">
+                <img src="images/xbox.png" alt="###">
+                <a href="https://www.microsoft.com/en-in/windows/get-windows-11?icid=MSCOM_QL_Windows&r=1">Get Windows
+                    11</a>
+            </div>
+        </div>
+
+
+        <div class="grid grid-cols-1 gap-4 gap-y-10 py-4 md:grid-cols-2 lg:grid-cols-4">
+
+            <div class="flex flex-col space-y-2">
+                <img src="images/surafce-9.webp" alt="###">
+                <h1 class="text-xl font-bold lg:text-2xl">Surafce Pro 9</h1>
+                <p>The tablet flexibility you want and the laptop performance you need — all in one ultra-portable
+                    device.
+                </p>
+                <div class="hover:space-x-1">
+                    <a href="">Learn more </a>
+                    <a href="">></a>
+                </div>
+            </div>
+            <div class="flex flex-col space-y-2">
+                <img src="images/365.avif" alt="###">
+                <h1 class="text-xl font-bold lg:text-2xl">Microsoft 365</h1>
+                <p>Turn your ideas into reality, stay safer online and off, and focus on what matters most with
+                    Microsoft
+                    365 apps.</p>
+                <div class="hover:space-x-1">
+                    <a href="">For one person </a>
+                    <a href="">></a>
+                </div>
+            </div>
+            <div class="flex flex-col space-y-2">
+                <img src="images/xbox-x.webp" alt="###">
+                <h1 class="text-xl font-bold lg:text-2xl">Xbox Series X</h1>
+                <p>The fastest, most powerful Xbox ever.</p>
+                <div class="hover:space-x-1">
+                    <a href="">Shop Xbox Series X </a>
+                    <a href="">></a>
+                </div>
+            </div>
+            <div class="flex flex-col space-y-2">
+                <img src="images/xbox-s.jpeg" alt="###">
+                <h1 class="text-xl font-bold lg:text-2xl">Xbox Series S</h1>
+                <p>Next-gen performance in the smallest Xbox ever.</p>
+                <div class="hover:space-x-1">
+                    <a href="">Shop Xbox Series S </a>
+                    <a href="">></a>
+                </div>
+            </div>
+
+        </div>
+
+
+        <div class="flex flex-col w-[95%] mx-[2.5%] my-16 lg:hidden">
+            <img src="images/motorsport.avif" class="w-screen" alt="###">
+            <div class="space-y-2 mt-10">
+                <p class="bg-yellow-500 h-7 w-14 text-center">New</p>
+                <h1 class="text-xl font-bold">See you at the starting line</h1>
+                <p>Outbuild the competition and race on world-famous tracks in Forza Motorsport.</p>
+            </div>
+            <div class="hover:space-x-1 mt-3">
+                <a href="">Shop Xbox Series S </a>
+                <a href="">></a>
+            </div>
+        </div>
+
+        <div class="flex justify-center hidden my-20 items-center min-w-full lg:block">
+            <div class="bg-cover bg-no-repeat flex justify-start items-center "
+                style="background-image: url('images/motorsport.avif');">
+                <div class="flex flex-col p-7 bg-white order-1 m-24 w-96 space-y-6">
+                    <p class="bg-yellow-500 h-7 w-14 text-center">New</p>
+                    <p class="Name font-bold text-3xl">See you at the starting line</p>
+                    <p class="specification"> Outbuild the competition and race on world-famous tracks in Forza
+                        Motorsport.
+                    </p>
+                    <button class="bg-blue-700 text-white p-2 w-fit">Shop Forza Motorsport</button>
+                </div>
+            </div>
+        </div>
+
+
+        <div class="flex flex-col my-4">
+
+            <h1 class="text-2xl font-bold my-8">For Business</h1>
+
+            <div class="grid grid-cols-1 gap-4 gap-y-10 md:grid-cols-2 lg:grid-cols-4">
+
+                <div class="flex flex-col space-y-2 ">
+                    <img src="images/1.avif" alt="###">
+                    <h1 class="text-xl font-bold lg:text-2xl"> Surface for Business</h1>
+                    <p>No matter what you do, there’s a Surface to help you do it.</p>
+                    <div class="hover:space-x-1">
+                        <a href="">Shop now </a>
+                        <a href="">></a>
+                    </div>
+                </div>
+                <div class="flex flex-col space-y-2 ">
+                    <img src="images/2.webp" alt="###">
+                    <h1 class="text-xl font-bold lg:text-2xl">Get Microsoft Teams for free</h1>
+                    <p>Online meetings, chat and shared cloud storage – all in one place.</p>
+                    <div class="hover:space-x-1">
+                        <a href="">Sign up for free </a>
+                        <a href="">></a>
+                    </div>
+                </div>
+                <div class="flex flex-col space-y-2 ">
+                    <img src="images/3.webp" alt="###">
+                    <h1 class="text-xl font-bold lg:text-2xl">Try Microsoft 365 for free</h1>
+                    <p>Get Microsoft Teams, secure cloud storage and premium apps across devices with a free one-month
+                        Microsoft 365 Business Standard trial.</p>
+                    <div class="hover:space-x-1">
+                        <a href="">Start your free trial </a>
+                        <a href="">></a>
+                    </div>
+                </div>
+                <div class="flex flex-col space-y-2 ">
+                    <img src="images/4.jpeg" alt="###">
+                    <h1 class="text-xl font-bold lg:text-2xl">Join the era of AI</h1>
+                    <p>Create, communicate, and code with the latest Microsoft AI solutions.</p>
+                    <div class="hover:space-x-1">
+                        <a href="">Explore AI solutions </a>
+                        <a href="">></a>
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+
+
+        <div class="flex flex-col w-[95%] my-16 lg:hidden">
+            <img src="images/ai2.avif" class="w-screen" alt="###">
+            <div class="space-y-2 mt-10">
+                <h1 class="text-xl font-bold ">Our blueprint for governing AI in India</h1>
+                <p>Microsoft is committed to developing and deploying AI in a safe, secure, and transparent way that can
+                    help expand positive outcomes in India—and the world.</p>
+            </div>
+            <div class="hover:space-x-1 mt-3">
+                <a href="">Shop Forza Motorsport </a>
+                <a href="">></a>
+            </div>
+        </div>
+        <div class="flex justify-center hidden mt-20 mb-14 items-center min-w-full lg:block">
+            <div class="bg-cover bg-no-repeat flex justify-start items-center "
+                style="background-image: url('images/ai2.avif');">
+                <div class="flex flex-col p-5 bg-white order-1 m-24 w-2/6 py-7 space-y-6">
+                    <p class="Name font-bold text-3xl">Our blueprint for governing AI in India</p>
+                    <p class="specification">Microsoft is committed to developing and deploying AI in a safe, secure,
+                        and
+                        transparent way that can help expand positive outcomes in India—and the world.
+                    </p>
+                    <button class="bg-blue-700 text-white p-2 w-fit">Learn about our approach to responsible AI</button>
+                </div>
+            </div>
+        </div>
+
+        <div class="flex space-x-6 mb-16">
+            <p>Follow Microsoft</p>
+            <img src="images/Facebook.avif" class="w-7" alt="">
+            <img src="images/twitter.webp" class="w-7" alt="">
+            <img src="images/YouTube.webp" class="w-7" alt="">
+        </div>
+    </div>
+
+
+
+    <div class="flex flex-col bg-[#f2f2f2]">
+        <div class="py-10 mx-5 grid grid-cols-1 gap-2 gap-y-8 md:grid-cols-3 lg:grid-cols-6 md:mx-10 lg:mx-20">
+            <div class="flex flex-col text-[#616161] text-xs space-y-2 font-thin">
+                <h1 class="text-base font-bold">What's new</h1>
+                <p>Microsoft 365</p>
+                <p>Games</p>
+                <p>Surface Pro 9</p>
+                <p>Surface Laptop 5</p>
+                <p>Surface Laptop Go 2</p>
+                <p>Windows 11 apps</p>
+            </div>
+            <div class="flex flex-col text-[#616161] text-xs space-y-2 font-thin">
+                <h1 class="text-base font-bold">Microsoft Store</h1>
+                <p>Account profile</p>
+                <p>Download Center</p>
+                <p>Microsoft Store Support</p>
+                <p>Returns</p>
+                <p>Order tracking</p>
+            </div>
+            <div class="flex flex-col text-[#616161] text-xs space-y-2 font-thin">
+                <h1 class="text-base font-bold">Education</h1>
+                <p>Microsoft in education</p>
+                <p>Devices for education</p>
+                <p>Microsoft Teams for Education</p>
+                <p>Microsoft 365 Education</p>
+                <p>Office Education</p>
+                <p>Educator training and development</p>
+                <p>Deals for students and parents</p>
+                <p>Azure for students</p>
+            </div>
+            <div class="flex flex-col text-[#616161] text-xs space-y-2 font-thin">
+                <h1 class="text-base font-bold">Business</h1>
+                <p>Microsoft Cloud</p>
+                <p>Microsoft Security</p>
+                <p>Azure</p>
+                <p>Dynamics 365</p>
+                <p>Microsoft 365</p>
+                <p>Microsoft Advertising</p>
+                <p>Microsoft Industry</p>
+                <p>Microsoft Teams</p>
+            </div>
+            <div class="flex flex-col text-[#616161] text-xs space-y-2 font-thin">
+                <h1 class="text-base font-bold">Developer & IT</h1>
+                <p></p>Developer Center</p>
+                <p></p>Documentation</p>
+                <p></p>Microsoft Learn</p>
+                <p></p>Microsoft Tech Community</p>
+                <p></p>Azure Marketplace</p>
+                <p></p>AppSource</p>
+                <p></p>Microsoft Power Platform</p>
+                <p></p>Visual Studio</p>
+            </div>
+            <div class="flex flex-col text-[#616161] text-xs space-y-2 font-thin">
+                <h1 class="text-base font-bold">Company</h1>
+                <p>Careers</p>
+                <p>About Microsoft</p>
+                <p>Company news</p>
+                <p>Privacy at Microsoft</p>
+                <p>Investors</p>
+                <p>Security</p>
+                <p>Sustainability</p>
+            </div>
+        </div>
+
+
+
+        <div class="flex flex-col py-10 mx-5 space-y-4 text-[#616161] text-xs font-thin md:mx-10 md:flex-row md:justify-between lg:mx-20 lg:space-y-0">
+            <div class="flex flex-col space-y-2 lg:flex-row lg:space-x-8 lg:space-y-0">
+                <div><a>English (India)</a></div>
+                <div><a>Your Privacy Choices</a></div>
+            </div>
+            <div class="flex flex-wrap space-x-4 lg:space-x-8">
+                <div class="">Contact</div>
+                <div class="">Microsoft</div>
+                <div class="">Privacy</div>
+                <div class="">Terms of use</div>
+                <div class="">Trademarks</div>
+                <div class="">About our ads</div>
+                <div class="">© Microsoft 2023</div>
+            </div>
+        </div>
+
+    </div>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+
+    <script src="index.js"></script>
+</body>
+
+</html>
+
+
+
+
+
+<!-- order -->
